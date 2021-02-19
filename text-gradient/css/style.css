@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+}
+.text-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    background-image: linear-gradient(
+        45deg, 
+        #4b0861,
+        #ff6898,
+        #cc2b5e,
+        #753a88,
+        #4b0861);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    background-position: center;
+    transition: background-position 1s;
+}
+
+.text:hover {
+    background-position: left;
+    cursor: pointer;
+}
